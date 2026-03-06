@@ -53,8 +53,6 @@ int main(){
         long long start = stoll(line.substr(0, line.find('-')));
         long long end = stoll(line.substr(line.find('-') + 1));
 
-        cout << start << " " << end << endl;
-
         if(start > end)
         {
             for(long long i = end; i <= start; i++)
